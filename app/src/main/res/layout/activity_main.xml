@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/not_basligi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Başlık"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/not_icerigi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Görev"
+        android:minHeight="48dp" />
+    
+    <Button
+        android:id="@+id/not_ekle_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Not Ekle"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/notlar_recyler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
